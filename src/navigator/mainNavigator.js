@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import Settings72490Navigator from '../features/Settings72490/navigator';
-import Settings72473Navigator from '../features/Settings72473/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
 import TutorialNavigator from '../features/Tutorial/navigator';
 import MapsNavigator from '../features/Maps/navigator';
@@ -24,7 +23,6 @@ const AppNavigator = {
     },
     //@BlueprintNavigationInsertion
 Settings72490: { screen: Settings72490Navigator },
-Settings72473: { screen: Settings72473Navigator },
 Messenger: { screen: MessengerNavigator },
 Tutorial: { screen: TutorialNavigator },
 Maps: { screen: MapsNavigator },
